@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,        // ← wichtig
             children: [
-              const Text('Hallo', style: TextStyle(color: Colors.white, fontSize: 40),),
+              const Text('Nibba', style: TextStyle(color: Colors.white, fontSize: 40),),
               const SizedBox(height: 40),
             ],
           ),
