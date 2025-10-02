@@ -12,13 +12,13 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black87,
         appBar: AppBar(
           backgroundColor: Colors.black,
-          title: const Text('Kronecker Projekt', style: TextStyle(color: Colors.white),),
+          title: const Text('Projekt Kronecker', style: TextStyle(color: Colors.white),),
         ),
         body: Center(
           child: Column(
             mainAxisSize: MainAxisSize.min,        // ← wichtig
             children: [
-              const Text('Nibba', style: TextStyle(color: Colors.white, fontSize: 40),),
+              const Text('Willkommen', style: TextStyle(color: Colors.white, fontSize: 40),),
               const SizedBox(height: 40),
             ],
           ),
